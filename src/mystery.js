@@ -1,1 +1,3 @@
-export const mystery2 = (num) => {};
+export const mystery2 = (num) => {
+  return num % 4 === 0 && (num % 100 !== 0 || num % 400 === 0);
+};
